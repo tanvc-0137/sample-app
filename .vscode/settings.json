@@ -8,7 +8,9 @@
     "javascript.format.enable": false,
     "javascript.preferences.quoteStyle": "single",
     "javascript.autoClosingTags": true,
-    "[erb]": {
+    "files.associations": {
+        "*.erb": "erb",
+        "*.html.erb": "html"
     },
     "javascript.format.insertSpaceAfterCommaDelimiter": false,
     "javascript.format.insertSpaceAfterConstructor": false,
