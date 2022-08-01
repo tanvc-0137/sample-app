@@ -2,7 +2,7 @@ source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "3.0.0"
-gem "bcrypt", "~> 3.1.7"
+gem "bcrypt", "3.1.13"
 gem "bootstrap-sass", "3.4.1"
 gem "image_processing", "~> 1.2"
 gem "importmap-rails"
@@ -16,7 +16,10 @@ gem "sassc-rails"
 gem "sprockets-rails"
 gem "stimulus-rails"
 gem "turbo-rails"
+gem "turbolinks", "~> 5"
 gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
+gem "webpacker", "~> 5.0"
+gem "bootsnap", ">= 1.4.4", require: false
 group :development, :test do
   gem "debug", platforms: %i(mri mingw x64_mingw)
 end
