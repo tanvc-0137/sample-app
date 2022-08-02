@@ -38,6 +38,6 @@ group :development, :test do
 end
 
 group :production do
-  gem "pg", "1.1.4"
+  # gem "pg", "1.1.4"
 end
 # gem 'rails-i18n'

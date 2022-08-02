@@ -1,2 +1,55 @@
-en:
-  hello: "Xin Chào"
+vi:
+   helper:
+      base_title: "Hướng dẫn Sample App Ruby on Rails"
+   static_pages:
+      header:
+         home: "Trang chủ"
+         login: "Đăng nhập"
+         help: "Trợ giúp"
+      footer:
+         news: "Tin tức"
+      about:
+         about: "Về chúng tôi"
+         the: ""
+         part: ", một phần của"
+         family: ", là một"
+         and: " và"
+         to_teach: "để hướng dẫn lập trình Web với"
+         sample_app: " Đây là ứng dụng mẫu cho mục đích hướng dẫn."
+         book: "cuốn sách"
+      help:
+         help: "Trợ giúp"
+         dis1: "Xem trợ giúp về hướng dẫn tại"
+         dis2: "Để được trợ giúp, truy cập"
+      contact:
+         contact: "Liên hệ"
+         dis1: "Liên hệ tới "
+      home:
+         signupnow: "Đăng ký ngay!"
+         welcome_quote: "Chào mừng đến với Sample App"
+         dis1: "Đây là trang chủ của"
+         dis2: "Ứng dụng mẫu."
+      title:
+         home: "Trang chủ"
+         help: "Trợ giúp"
+         contact: "Liên hệ"
+         about: "Về chúng tôi"
+         signup: "Đăng ký"
+   users:
+      error: "Lỗi"
+      cantfind: "Không tìm được người dùng"
+      form_error: "Form chứa"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Trang cá nhân"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
+      new:
+         create_acount: "Tạo tài khoản"
+   sessions:
+      new:
+         login: "Đăng nhập"
+         new_user: "Chưa có tài khoản? "
+         sign_up: "Đăng ký ngay!"
+      create:
+         error: "Mật khẩu hoặc email không đúng"
