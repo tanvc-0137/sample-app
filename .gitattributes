@@ -6,3 +6,8 @@ db/schema.rb linguist-generated
 # Mark any vendored files as having been vendored.
 vendor/* linguist-vendored
 node_modules
+# Mark the yarn lockfile as having been generated.
+yarn.lock linguist-generated
+
+# Mark any vendored files as having been vendored.
+vendor/* linguist-vendored
