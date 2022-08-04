@@ -3,10 +3,7 @@
 #
 # Examples:
 #
-<<<<<<< HEAD
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-=======
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
->>>>>>> dd2a99f8cc916dea3626652d2bfcd668ba5015dd
