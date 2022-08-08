@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
 
   before_save :downcase_email
@@ -67,6 +68,13 @@ class User < ApplicationRecord
     reset_sent_at < Settings.email.expired.hours.ago
   end
 
+<<<<<<< HEAD
+=======
+  def feed
+    microposts.latest
+  end
+
+>>>>>>> 2b54a3d34b2762048bc8ef0916f60ae39c9fd531
   private
   def downcase_email
     email.downcase!
