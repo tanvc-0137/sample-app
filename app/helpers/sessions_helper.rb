@@ -24,7 +24,7 @@ module SessionsHelper
     user && user == current_user
   end
 
-  def is_logged_in?
+  def logged_in?
     current_user.present?
   end
 

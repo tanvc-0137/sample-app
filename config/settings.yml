@@ -1,19 +1,19 @@
 urls:
   contact:
-    contact: "https://www.railstutorial.org/contact"
+    contact: 'https://www.railstutorial.org/contact'
   footer:
-    tutorial: "https://www.railstutorial.org/"
-    author: "https://www.michaelhartl.com/"
-    news: "https://news.railstutorial.org/"
+    tutorial: 'https://www.railstutorial.org/'
+    author: 'https://www.michaelhartl.com/'
+    news: 'https://news.railstutorial.org/'
   help:
-    help: "https://www.railstutorial.org/help"
-    book: "https://www.railstutorial.org/book"
+    help: 'https://www.railstutorial.org/help'
+    book: 'https://www.railstutorial.org/book'
   about:
-    learn_enough: "https://www.learnenough.com/"
-    book: "https://www.railstutorial.org/book"
-    series: "https://screencasts.railstutorial.org/"
-    ruby: "https://rubyonrails.org/"
-  gravatar: "https://gravatar.com/emails"
+    learn_enough: 'https://www.learnenough.com/'
+    book: 'https://www.railstutorial.org/book'
+    series: 'https://screencasts.railstutorial.org/'
+    ruby: 'https://rubyonrails.org/'
+  gravatar: 'https://gravatar.com/emails'
 user:
   email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   name_max: 50
@@ -22,3 +22,5 @@ user:
   gravatar_szie: 80
   gravatar_for_user_size: 50
   pagy: 20
+email:
+  expired: 2
