@@ -1,96 +1,122 @@
 vi:
-   helper:
-      base_title: "Hướng dẫn Sample App Ruby on Rails"
-   static_pages:
-      header:
-         home: "Trang chủ"
-         login: "Đăng nhập"
-         help: "Trợ giúp"
-      footer:
-         news: "Tin tức"
-      about:
-         about: "Về chúng tôi"
-         the: ""
-         part: ", một phần của"
-         family: ", là một"
-         and: " và"
-         to_teach: "để hướng dẫn lập trình Web với"
-         sample_app: " Đây là ứng dụng mẫu cho mục đích hướng dẫn."
-         book: "cuốn sách"
-      help:
-         help: "Trợ giúp"
-         dis1: "Xem trợ giúp về hướng dẫn tại"
-         dis2: "Để được trợ giúp, truy cập"
-      contact:
-         contact: "Liên hệ"
-         dis1: "Liên hệ tới "
-      home:
-         signupnow: "Đăng ký ngay!"
-         welcome_quote: "Chào mừng đến với Sample App"
-         dis1: "Đây là trang chủ của"
-         dis2: "Ứng dụng mẫu."
-      title:
-         home: "Trang chủ"
-         help: "Trợ giúp"
-         contact: "Liên hệ"
-         about: "Về chúng tôi"
-         signup: "Đăng ký"
-   users:
-      error: "Lỗi"
-      cantfind: "Không tìm được người dùng"
-      form_error: "Form chứa"
-      user: "Người dùng"
-      account: "Tài khoản"
-      profile: "Trang cá nhân"
-      settings: "Cài đặt"
-      logout: "Đăng xuất"
-      profile_updated: "Cập nhật thành công"
-      profile_faild: "Cập nhật thất bại"
-      user_deleted: "Xóa người dùng thành công"
-      delete_failed: "Xóa người dùng thất bại"
-      login_warn: "Xin hãy đăng nhập."
-      confirm: "Bạn chắc không ?"
-      check_email: "Kiểm tra email để kích hoạt tài khoản."
-      new:
-         create_acount: "Tạo tài khoản"
-      index:
-         title: "Tất cả người dùng"
-      edit:
-         title: "Cập nhật thông tin"
-         save_button: "Lưu thay đổi"
-         change: "Thay đổi"
-   sessions:
-      new:
-         login: "Đăng nhập"
-         new_user: "Chưa có tài khoản? "
-         sign_up: "Đăng ký ngay!"
-         remember: "Ghi nhớ đăng nhập"
-      create:
-         error: "Mật khẩu hoặc email không đúng"
-   user_mailer:
-      welcome: "Chào mwufng đến với Sample App! Bấm vào link dưới để kích hoạt tài khoản:"
-      activate: "Kích hoạt"
-      mess: "Tài khoản chưa kích hoạt. Kiểm tra email."
-      account_activated: "Tài khoản đã được kích hoạt!"
-      invalid_link: "Link không hợp lệ"
-      subject: "Kích hoạt tài khoản"
-      sample_app: "Ứng dụng Mẫu"
-      pass_reset: "Cài lại mật khẩu"
-      to_test: "Click link dưới để cài lại mật khẩu:"
-      reset_pass: "Đặt lại mật khẩu"
-      this_link: "Link sẽ hết hạn sau 2 tiếng."
-      if: "Nếu bạn không yêu cầu cài lại mật khẩu, hãy bỏ qua email này, mật khẩu của bạn sẽ được giữ nguyên."
-   password_resets:
-      info: "Email đã được gửi"
-      email_not_found: "Không tìm thấy địa chỉ email"
-      cant_empt: "Không thể để trống"
-      reset_ok: "Mật khẩu đã được đặt lại."
-      expired: "Đặt lại mật khẩu đã quá hạn."
-      edit:
-         title: "Đặt lại mật khẩu"
-         update_button: "Cập nhật mật khẩu"
-         comfirm: "Xác nhận"
-      new:
-         title_for: "Quên mật khẩu"
-         submit: "Gửi"
-      forgot_pass: "(quên mật khẩu)"
+  helper:
+    base_title: 'Hướng dẫn Sample App Ruby on Rails'
+  static_pages:
+    header:
+      home: 'Trang chủ'
+      login: 'Đăng nhập'
+      help: 'Trợ giúp'
+    footer:
+      news: 'Tin tức'
+    about:
+      about: 'Về chúng tôi'
+      the: ''
+      part: ', một phần của'
+      family: ', là một'
+      and: ' và'
+      to_teach: 'để hướng dẫn lập trình Web với'
+      sample_app: ' Đây là ứng dụng mẫu cho mục đích hướng dẫn.'
+      book: 'cuốn sách'
+    help:
+      help: 'Trợ giúp'
+      dis1: 'Xem trợ giúp về hướng dẫn tại'
+      dis2: 'Để được trợ giúp, truy cập'
+    contact:
+      contact: 'Liên hệ'
+      dis1: 'Liên hệ tới '
+    home:
+      signupnow: 'Đăng ký ngay!'
+      welcome_quote: 'Chào mừng đến với Sample App'
+      dis1: 'Đây là trang chủ của'
+      dis2: 'Ứng dụng mẫu.'
+      feed: 'Các bài đăng'
+      tutor: 'Hướng dẫn Ruby on Rails'
+      logo: 'Rails logo'
+    title:
+      home: 'Trang chủ'
+      help: 'Trợ giúp'
+      contact: 'Liên hệ'
+      about: 'Về chúng tôi'
+      signup: 'Đăng ký'
+  users:
+    error: 'Lỗi'
+    cantfind: 'Không tìm được người dùng'
+    form_error: 'Form chứa'
+    user: 'Người dùng'
+    account: 'Tài khoản'
+    profile: 'Trang cá nhân'
+    settings: 'Cài đặt'
+    logout: 'Đăng xuất'
+    profile_updated: 'Cập nhật thành công'
+    profile_faild: 'Cập nhật thất bại'
+    user_deleted: 'Xóa người dùng thành công'
+    delete_failed: 'Xóa người dùng thất bại'
+    login_warn: 'Xin hãy đăng nhập.'
+    confirm: 'Bạn chắc không ?'
+    check_email: 'Kiểm tra email để kích hoạt tài khoản.'
+    follow: 'Theo dõi'
+    unfollow: 'Bỏ theo dõi'
+    following: 'Đang theo dõi'
+    followers: 'Người theo dõi'
+    microposts: 'Các bài đăng'
+    new:
+      create_acount: 'Tạo tài khoản'
+    index:
+      title: 'Tất cả người dùng'
+    edit:
+      title: 'Cập nhật thông tin'
+      save_button: 'Lưu thay đổi'
+      change: 'Thay đổi'
+  sessions:
+    new:
+      login: 'Đăng nhập'
+      new_user: 'Chưa có tài khoản? '
+      sign_up: 'Đăng ký ngay!'
+      remember: 'Ghi nhớ đăng nhập'
+    create:
+      error: 'Mật khẩu hoặc email không đúng'
+  user_mailer:
+    welcome: 'Chào mwufng đến với Sample App! Bấm vào link dưới để kích hoạt tài khoản:'
+    activate: 'Kích hoạt'
+    mess: 'Tài khoản chưa kích hoạt. Kiểm tra email.'
+    account_activated: 'Tài khoản đã được kích hoạt!'
+    invalid_link: 'Link không hợp lệ'
+    subject: 'Kích hoạt tài khoản'
+    sample_app: 'Ứng dụng Mẫu'
+    pass_reset: 'Cài lại mật khẩu'
+    to_test: 'Click link dưới để cài lại mật khẩu:'
+    reset_pass: 'Đặt lại mật khẩu'
+    this_link: 'Link sẽ hết hạn sau 2 tiếng.'
+    if: 'Nếu bạn không yêu cầu cài lại mật khẩu, hãy bỏ qua email này, mật khẩu của bạn sẽ được giữ nguyên.'
+  password_resets:
+    info: 'Email đã được gửi'
+    email_not_found: 'Không tìm thấy địa chỉ email'
+    cant_empt: 'Không thể để trống'
+    reset_ok: 'Mật khẩu đã được đặt lại.'
+    expired: 'Đặt lại mật khẩu đã quá hạn.'
+    edit:
+      title: 'Đặt lại mật khẩu'
+      update_button: 'Cập nhật mật khẩu'
+      comfirm: 'Xác nhận'
+    new:
+      title_for: 'Quên mật khẩu'
+      submit: 'Gửi'
+    forgot_pass: '(quên mật khẩu)'
+  microposts:
+    created: 'Đã tạo bài đăng!'
+    image_valid: 'cần đúng định dạng ảnh'
+    image_size: 'cần nhỏ hơn 5MB'
+    posted: 'Đã đăng'
+    ago: 'trước'
+    confirm: 'Bạn chắc không?'
+    place_holder: 'Soạn bài viết...'
+    view_myprofile: 'Xem trang của tôi'
+    micropost: 'bài đăng'
+    delete: 'xoá'
+    post: 'Đăng'
+    deleted: 'Đã xóa bài đăng'
+    delete_fails: 'Xóa bài không thành công'
+    empty: 'Không có bài đăng'
+  shared:
+    micropost_form:
+      large_img_error: 'Maximum file size is 5MB. Please choose a smaller file.'

@@ -10,6 +10,7 @@ Style/Alias:
 
 Layout/HashAlignment:
   Description: >-
+<<<<<<< HEAD
                  Align the elements of a hash literal if they span more than
                  one line.
   Enabled: true
@@ -18,6 +19,16 @@ Layout/Layout/ParameterAlignment:
   Description: >-
                  Align the parameters of a method call if they span more
                  than one line.
+=======
+    Align the elements of a hash literal if they span more than
+    one line.
+  Enabled: true
+
+Layout/ParameterAlignment:
+  Description: >-
+    Align the parameters of a method call if they span more
+    than one line.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Style/AndOr:
@@ -54,9 +65,15 @@ Metrics/BlockNesting:
 
 Style/BlockDelimiters:
   Description: >-
+<<<<<<< HEAD
                 Avoid using {...} for multi-line blocks (multiline chaining is
                 always ugly).
                 Prefer {...} over do...end for single-line blocks.
+=======
+    Avoid using {...} for multi-line blocks (multiline chaining is
+    always ugly).
+    Prefer {...} over do...end for single-line blocks.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Style/CaseEquality:
@@ -101,8 +118,13 @@ Style/ColonMethodCall:
 
 Style/CommentAnnotation:
   Description: >-
+<<<<<<< HEAD
                  Checks formatting of special comments
                  (TODO, FIXME, OPTIMIZE, HACK, REVIEW).
+=======
+    Checks formatting of special comments
+    (TODO, FIXME, OPTIMIZE, HACK, REVIEW).
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Layout/CommentIndentation:
@@ -207,14 +229,24 @@ Style/GuardClause:
 
 Style/HashSyntax:
   Description: >-
+<<<<<<< HEAD
                  Prefer Ruby 1.9 hash syntax { a: 1, b: 2 } over 1.8 syntax
                  { :a => 1, :b => 2 }.
+=======
+    Prefer Ruby 1.9 hash syntax { a: 1, b: 2 } over 1.8 syntax
+    { :a => 1, :b => 2 }.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Style/IfUnlessModifier:
   Description: >-
+<<<<<<< HEAD
                  Favor modifier if/unless usage when you have a
                  single-line body.
+=======
+    Favor modifier if/unless usage when you have a
+    single-line body.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Style/IfWithSemicolon:
@@ -231,8 +263,13 @@ Layout/IndentationWidth:
 
 Layout/FirstArrayElementIndentation:
   Description: >-
+<<<<<<< HEAD
                  Checks the indentation of the first element in an array
                  literal.
+=======
+    Checks the indentation of the first element in an array
+    literal.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Layout/FirstHashElementIndentation:
@@ -253,11 +290,19 @@ Layout/LeadingCommentSpace:
 
 Style/LineEndConcatenation:
   Description: >-
+<<<<<<< HEAD
                  Use \ instead of + or << to concatenate two string literals at
                  line end.
   Enabled: true
 
 Metrics/LineLength:
+=======
+    Use \ instead of + or << to concatenate two string literals at
+    line end.
+  Enabled: true
+
+Layout/LineLength:
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Description: "Limit lines to 80 characters."
   Enabled: true
 
@@ -267,8 +312,13 @@ Style/MethodCallWithoutArgsParentheses:
 
 Style/MethodDefParentheses:
   Description: >-
+<<<<<<< HEAD
                  Checks if the method definitions have or don"t have
                  parentheses.
+=======
+    Checks if the method definitions have or don"t have
+    parentheses.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Naming/MethodName:
@@ -289,14 +339,24 @@ Style/MultilineIfThen:
 
 Style/MultilineTernaryOperator:
   Description: >-
+<<<<<<< HEAD
                  Avoid multi-line ?: (the ternary operator);
                  use if/unless instead.
+=======
+    Avoid multi-line ?: (the ternary operator);
+    use if/unless instead.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Style/NegatedIf:
   Description: >-
+<<<<<<< HEAD
                  Favor unless over if for negative conditions
                  (or control flow or).
+=======
+    Favor unless over if for negative conditions
+    (or control flow or).
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Style/NegatedWhile:
@@ -325,14 +385,24 @@ Style/Not:
 
 Style/NumericLiterals:
   Description: >-
+<<<<<<< HEAD
                  Add underscores to large numeric literals to improve their
                  readability.
+=======
+    Add underscores to large numeric literals to improve their
+    readability.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Style/OneLineConditional:
   Description: >-
+<<<<<<< HEAD
                  Favor the ternary operator(?:) over
                  if/then/else/end constructs.
+=======
+    Favor the ternary operator(?:) over
+    if/then/else/end constructs.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Naming/BinaryOperatorParameterName:
@@ -341,8 +411,13 @@ Naming/BinaryOperatorParameterName:
 
 Style/ParenthesesAroundCondition:
   Description: >-
+<<<<<<< HEAD
                  Don't use parentheses around the condition of an
                  if/unless/while.
+=======
+    Don't use parentheses around the condition of an
+    if/unless/while.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Style/PercentLiteralDelimiters:
@@ -383,10 +458,17 @@ Style/RedundantSelf:
 
 Style/RegexpLiteral:
   Description: >-
+<<<<<<< HEAD
                  Use %r for regular expressions matching more than
                  `MaxSlashes` '/' characters.
                  Use %r only for regular expressions matching more than
                  `MaxSlashes` '/' character.
+=======
+    Use %r for regular expressions matching more than
+    `MaxSlashes` '/' characters.
+    Use %r only for regular expressions matching more than
+    `MaxSlashes` '/' character.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Style/RescueModifier:
@@ -415,8 +497,13 @@ Style/SingleLineMethods:
 
 Layout/SpaceBeforeFirstArg:
   Description: >-
+<<<<<<< HEAD
                  Checks that exactly one space is used between a method name
                  and the first argument for method calls without parentheses.
+=======
+    Checks that exactly one space is used between a method name
+    and the first argument for method calls without parentheses.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Layout/SpaceAfterColon:
@@ -433,8 +520,13 @@ Layout/SpaceAroundKeyword:
 
 Layout/SpaceAfterMethodName:
   Description: >-
+<<<<<<< HEAD
                  Never put a space between a method name and the opening
                  parenthesis in a method definition.
+=======
+    Never put a space between a method name and the opening
+    parenthesis in a method definition.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Layout/SpaceAfterNot:
@@ -447,8 +539,13 @@ Layout/SpaceAfterSemicolon:
 
 Layout/SpaceBeforeBlockBraces:
   Description: >-
+<<<<<<< HEAD
                  Checks that the left block brace has or doesn't have space
                  before it.
+=======
+    Checks that the left block brace has or doesn't have space
+    before it.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Layout/SpaceBeforeComma:
@@ -457,8 +554,13 @@ Layout/SpaceBeforeComma:
 
 Layout/SpaceBeforeComment:
   Description: >-
+<<<<<<< HEAD
                  Checks for missing space between code and a comment on the
                  same line.
+=======
+    Checks for missing space between code and a comment on the
+    same line.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Layout/SpaceBeforeSemicolon:
@@ -467,16 +569,28 @@ Layout/SpaceBeforeSemicolon:
 
 Layout/SpaceInsideBlockBraces:
   Description: >-
+<<<<<<< HEAD
                  Checks that block braces have or don't have surrounding space.
                  For blocks taking parameters, checks that the left brace has
                  or doesn"t have trailing space.
+=======
+    Checks that block braces have or don't have surrounding space.
+    For blocks taking parameters, checks that the left brace has
+    or doesn"t have trailing space.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Layout/SpaceAroundEqualsInParameterDefault:
   Description: >-
+<<<<<<< HEAD
                  Checks that the equals signs in parameter default assignments
                  have or don't have surrounding space depending on
                  configuration.
+=======
+    Checks that the equals signs in parameter default assignments
+    have or don't have surrounding space depending on
+    configuration.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Layout/SpaceAroundOperators:
@@ -508,6 +622,7 @@ Layout/TrailingEmptyLines:
   Enabled: true
 
 Style/TrailingCommaInArguments:
+<<<<<<< HEAD
   Description: 'Checks for trailing comma in argument lists.'
   StyleGuide: '#no-trailing-params-comma'
   Enabled: true
@@ -519,6 +634,19 @@ Style/TrailingCommaInArrayLiteral:
 
 Style/TrailingCommaInHashLiteral:
   Description: 'Checks for trailing comma in hash literals.'
+=======
+  Description: "Checks for trailing comma in argument lists."
+  StyleGuide: "#no-trailing-params-comma"
+  Enabled: true
+
+Style/TrailingCommaInArrayLiteral:
+  Description: "Checks for trailing comma in array literals."
+  StyleGuide: "#no-trailing-array-commas"
+  Enabled: true
+
+Style/TrailingCommaInHashLiteral:
+  Description: "Checks for trailing comma in hash literals."
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Layout/TrailingWhitespace:
@@ -531,8 +659,13 @@ Style/TrivialAccessors:
 
 Style/UnlessElse:
   Description: >-
+<<<<<<< HEAD
                  Never use unless with else. Rewrite these with the positive
                  case first.
+=======
+    Never use unless with else. Rewrite these with the positive
+    case first.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Style/RedundantCapitalW:
@@ -545,8 +678,13 @@ Style/CommandLiteral:
 
 Style/VariableInterpolation:
   Description: >-
+<<<<<<< HEAD
                  Don't interpolate global, instance and class variables
                  directly in strings.
+=======
+    Don't interpolate global, instance and class variables
+    directly in strings.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Naming/VariableName:
@@ -563,8 +701,13 @@ Style/WhileUntilDo:
 
 Style/WhileUntilModifier:
   Description: >-
+<<<<<<< HEAD
                  Favor modifier while/until usage when you have a
                  single-line body.
+=======
+    Favor modifier while/until usage when you have a
+    single-line body.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Style/WordArray:
@@ -576,14 +719,24 @@ Style/WordArray:
 
 Lint/AmbiguousOperator:
   Description: >-
+<<<<<<< HEAD
                  Checks for ambiguous operators in the first argument of a
                  method invocation without parentheses.
+=======
+    Checks for ambiguous operators in the first argument of a
+    method invocation without parentheses.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Lint/AmbiguousRegexpLiteral:
   Description: >-
+<<<<<<< HEAD
                  Checks for ambiguous regexp literals in the first argument of
                  a method invocation without parenthesis.
+=======
+    Checks for ambiguous regexp literals in the first argument of
+    a method invocation without parenthesis.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Layout/BlockAlignment:
@@ -622,9 +775,15 @@ Layout/EndAlignment:
   Description: "Align ends correctly."
   Enabled: true
 
+<<<<<<< HEAD
 Style/EndBlock:
   Description: "END blocks should not be placed inside method definitions."
   Enabled: true
+=======
+# Style/EndBlock:
+#   Description: "END blocks should not be placed inside method definitions."
+#   Enabled: true
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
 
 Lint/EnsureReturn:
   Description: "Never use return in an ensure block."
@@ -644,20 +803,35 @@ Lint/LiteralInInterpolation:
 
 Lint/Loop:
   Description: >-
+<<<<<<< HEAD
                  Use Kernel#loop with break rather than begin/end/until or
                  begin/end/while for post-loop tests.
+=======
+    Use Kernel#loop with break rather than begin/end/until or
+    begin/end/while for post-loop tests.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Lint/ParenthesesAsGroupedExpression:
   Description: >-
+<<<<<<< HEAD
                  Checks for method calls with a space before the opening
                  parenthesis.
+=======
+    Checks for method calls with a space before the opening
+    parenthesis.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Lint/RequireParentheses:
   Description: >-
+<<<<<<< HEAD
                  Use parentheses in the method call to avoid confusion
                  about precedence.
+=======
+    Use parentheses in the method call to avoid confusion
+    about precedence.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Lint/RescueException:
@@ -666,8 +840,13 @@ Lint/RescueException:
 
 Lint/ShadowingOuterLocalVariable:
   Description: >-
+<<<<<<< HEAD
                  Do not use the same name as outer local variable
                  for block arguments or block local variables.
+=======
+    Do not use the same name as outer local variable
+    for block arguments or block local variables.
+>>>>>>> 13cdd33be593998c5823ee5484689b2633a2e91d
   Enabled: true
 
 Lint/RedundantStringCoercion:

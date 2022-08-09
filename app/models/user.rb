@@ -1,5 +1,13 @@
 class User < ApplicationRecord
   has_many :microposts, dependent: :destroy
+  has_many :active_relationships, class_name: Relationship.name,
+                                  foreign_key: :follower_id,
+                                  dependent: :destroy
+  has_many :passive_relationships, class_name: Relationship.name,
+                                   foreign_key: :followed_id,
+                                   dependent: :destroy
+  has_many :following, through: :active_relationships, source: :followed
+  has_many :followers, through: :passive_relationships, source: :follower
   attr_accessor :remember_token, :activation_token, :reset_token
 
   before_save :downcase_email
@@ -68,13 +76,25 @@ class User < ApplicationRecord
     reset_sent_at < Settings.email.expired.hours.ago
   end
 
-<<<<<<< HEAD
-=======
   def feed
-    microposts.latest
+    following_ids = "SELECT followed_id FROM relationships
+                     WHERE follower_id = :user_id"
+    Micropost.where("user_id IN (#{following_ids})
+                     OR user_id = :user_id", user_id: id)
   end
 
->>>>>>> 2b54a3d34b2762048bc8ef0916f60ae39c9fd531
+  def follow other_user
+    following << other_user
+  end
+
+  def unfollow other_user
+    following.delete other_user
+  end
+
+  def following? other_user
+    following.include? other_user
+  end
+
   private
   def downcase_email
     email.downcase!
